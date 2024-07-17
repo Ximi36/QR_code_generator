@@ -1,7 +1,7 @@
-# Aplikacja do generowania kodów QR dla samorządu
+# Aplikacja do generowania kodów QR
 
 ## Założenia
-Celem projektu jest stworzenie aplikacji umożliwiającej generowanie kodów QR, które będą wykorzystywane przez samorząd wydziałowy.
+Celem projektu jest stworzenie aplikacji umożliwiającej generowanie kodów QR z możliwością edycji wielu parametrów.
 
 ## Technologie
 - Generowanie kodów QR za pomocą biblioteki SEGNO.
@@ -9,12 +9,11 @@ Celem projektu jest stworzenie aplikacji umożliwiającej generowanie kodów QR,
 
 ## Funkcjonalności
 - **Konfiguracja kodu QR**:
-  - Ustawienie stałej wielkości generowanego kodu na 10.
+  - Ustawienie wielkości generowanego kodu oraz ramki zewnętrznej.
   - Wybór stylu tła: kolor tła, przezroczyste tło lub tło w formie grafiki lub GIF-a.
   - Wybór koloru kodu QR.
   - Obrót kodu QR o określony kąt.
   - Możliwość zmiany wszystkich parametrów za pomocą przycisków, pól tekstowych itp.
-  - Checkbox "czy transparentny", który dezaktywuje opcję wyboru koloru tła.
   
 - **Animowany QR**:
   - Generowanie animowanego QR z możliwością wyboru pliku z komputera.
